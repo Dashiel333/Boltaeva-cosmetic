@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Boltaeva</title>
+</head>
+
+<body class="page-index">
+
+  <div class="hero">
+    <div class="container">
+      <header>
+        <nav class="navigation">
+          <div class="bourger">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu" id="menu">
+            <div class="burger-nav">
+              <div class="left-nav">
+                <a class="burger-close" href="#">
+                  <svg class="burger-icons glass" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M15 15L10.9556 10.9556M12.6667 6.83333C12.6667 10.055 10.055 12.6667 6.83333 12.6667C3.61167 12.6667 1 10.055 1 6.83333C1 3.61167 3.61167 1 6.83333 1C10.055 1 12.6667 3.61167 12.6667 6.83333Z"
+                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <button class="close" id="close">&times;</button>
+                <div class="search-container" id="search-box">
+                  <div class="open-close">
+                    <input class="search-input" type="text" placeholder="Care cosmetic">
+                    <div class="icons-box">
+                      <svg class="burger-icons glass-burg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M15 15L10.9556 10.9556M12.6667 6.83333C12.6667 10.055 10.055 12.6667 6.83333 12.6667C3.61167 12.6667 1 10.055 1 6.83333C1 3.61167 3.61167 1 6.83333 1C10.055 1 12.6667 3.61167 12.6667 6.83333Z"
+                          stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <button class="close" id="close">&times;</button>
+                    </div>
+                  </div>
+                  <div class="dark-color">
+                  </div>
+                </div>
+              </div>
+              <div class="logo-dark">
+                <img src="images/logo-boltaeva-dark.svg" alt="logo_boltaeva">
+              </div>
+
+              <div class="right-nav">
+                <a href="#">
+                  <svg class="burger-icons" width="14" height="16" viewBox="0 0 14 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.8116 8.11075C11.7543 8.05377 11.6862 8.00866 11.6114 7.97798C11.5366 7.9473 11.4565 7.93166 11.3756 7.93194C11.2948 7.93223 11.2148 7.94844 11.1402 7.97964C11.0656 8.01085 10.9978 8.05644 10.9409 8.11382C10.8839 8.1712 10.8388 8.23924 10.8081 8.31405C10.7774 8.38886 10.7618 8.46899 10.7621 8.54984C10.7624 8.6307 10.7786 8.71071 10.8098 8.78531C10.841 8.8599 10.8866 8.92762 10.9439 8.98459C11.4647 9.49979 11.878 10.1132 12.16 10.7892C12.4421 11.4653 12.5872 12.1905 12.587 12.9231C12.587 13.6738 10.427 14.7692 7.04856 14.7692C3.6701 14.7692 1.5101 13.6738 1.5101 12.9231C1.50913 12.1954 1.65156 11.4746 1.92927 10.802C2.20697 10.1294 2.6145 9.51809 3.12857 9.00305C3.24318 8.88775 3.30751 8.73178 3.30751 8.56921C3.30751 8.40663 3.24318 8.25066 3.12857 8.13536C3.01327 8.02074 2.8573 7.95641 2.69472 7.95641C2.53214 7.95641 2.37617 8.02074 2.26087 8.13536C1.63017 8.76254 1.13025 9.50869 0.790098 10.3305C0.449949 11.1524 0.276339 12.0336 0.279335 12.9231C0.279335 14.9231 3.76857 16 7.04856 16C10.3286 16 13.8178 14.9231 13.8178 12.9231C13.8202 12.0278 13.6439 11.1411 13.2995 10.3148C12.955 9.48851 12.4492 8.7392 11.8116 8.11075Z"
+                      fill="white" />
+                    <path
+                      d="M7.04854 8.61539C7.90052 8.61539 8.73337 8.36274 9.44176 7.88941C10.1502 7.41607 10.7023 6.7433 11.0283 5.95618C11.3544 5.16905 11.4397 4.30291 11.2735 3.4673C11.1072 2.63169 10.697 1.86414 10.0945 1.2617C9.49209 0.659254 8.72454 0.248986 7.88893 0.082773C7.05332 -0.0834402 6.18718 0.00186646 5.40005 0.327905C4.61293 0.653944 3.94016 1.20607 3.46682 1.91447C2.99349 2.62286 2.74084 3.45571 2.74084 4.30769C2.74084 5.45016 3.19469 6.54584 4.00254 7.35369C4.81039 8.16154 5.90607 8.61539 7.04854 8.61539ZM7.04854 1.23077C7.65709 1.23077 8.25199 1.41123 8.75798 1.74933C9.26398 2.08742 9.65836 2.56797 9.89124 3.13021C10.1241 3.69244 10.1851 4.31111 10.0663 4.90797C9.94761 5.50484 9.65456 6.05309 9.22425 6.48341C8.79393 6.91372 8.24568 7.20677 7.64881 7.32549C7.05195 7.44422 6.43328 7.38328 5.87105 7.1504C5.30882 6.91751 4.82827 6.52314 4.49017 6.01714C4.15207 5.51114 3.97161 4.91625 3.97161 4.30769C3.97161 3.49164 4.29579 2.70902 4.87282 2.13198C5.44986 1.55495 6.23249 1.23077 7.04854 1.23077Z"
+                      fill="white" />
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="burger-icons" width="15" height="16" viewBox="0 0 15 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.9975 3.2746H10.5499C10.4777 2.45197 10.0872 1.68543 9.45564 1.12678C8.82409 0.568129 7.9976 0.258107 7.13983 0.258107C6.28206 0.258107 5.45556 0.568129 4.82402 1.12678C4.19247 1.68543 3.80193 2.45197 3.72973 3.2746H2.28214C1.74533 3.2746 1.23051 3.47984 0.850933 3.84516C0.471353 4.21049 0.258107 4.70598 0.258107 5.22263V13.794C0.258107 14.3106 0.471353 14.8061 0.850933 15.1714C1.23051 15.5367 1.74533 15.742 2.28214 15.742H11.9975C12.5343 15.742 13.0491 15.5367 13.4287 15.1714C13.8083 14.8061 14.0215 14.3106 14.0215 13.794V5.22263C14.0215 4.70598 13.8083 4.21049 13.4287 3.84516C13.0491 3.47984 12.5343 3.2746 11.9975 3.2746ZM7.13983 1.03437C7.78318 1.03629 8.40341 1.26548 8.88278 1.67845C9.36216 2.09141 9.66731 2.6594 9.74031 3.2746H4.53935C4.61235 2.6594 4.9175 2.09141 5.39687 1.67845C5.87625 1.26548 6.49647 1.03629 7.13983 1.03437ZM13.2119 13.794C13.2119 14.1039 13.084 14.4012 12.8562 14.6204C12.6285 14.8396 12.3196 14.9628 11.9975 14.9628H2.28214C1.96006 14.9628 1.65116 14.8396 1.42342 14.6204C1.19567 14.4012 1.06772 14.1039 1.06772 13.794V5.22263C1.06772 4.91264 1.19567 4.61534 1.42342 4.39615C1.65116 4.17695 1.96006 4.05381 2.28214 4.05381H11.9975C12.3196 4.05381 12.6285 4.17695 12.8562 4.39615C13.084 4.61534 13.2119 4.91264 13.2119 5.22263V13.794Z"
+                      fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M10.7781 3.01649H11.9975C12.5996 3.01649 13.179 3.24661 13.6076 3.65918C14.0366 4.07208 14.2796 4.63424 14.2796 5.22258V13.7939C14.2796 14.3823 14.0366 14.9444 13.6076 15.3573C13.179 15.7699 12.5996 16 11.9975 16H2.2821C1.67997 16 1.1006 15.7699 0.671936 15.3573C0.242932 14.9444 0 14.3823 0 13.7939V5.22258C0 4.63424 0.242932 4.07208 0.671936 3.65918C1.1006 3.24661 1.67997 3.01649 2.2821 3.01649H3.50151C3.62777 2.21688 4.03348 1.48145 4.65299 0.933445C5.33261 0.332271 6.22023 0 7.13979 0C8.05934 0 8.94696 0.332271 9.62658 0.933445C10.2461 1.48145 10.6518 2.21688 10.7781 3.01649ZM10.5499 3.2746H11.9975C12.5343 3.2746 13.0491 3.47984 13.4287 3.84516C13.8083 4.21049 14.0215 4.70598 14.0215 5.22263V13.794C14.0215 14.3106 13.8083 14.8061 13.4287 15.1714C13.0491 15.5367 12.5343 15.742 11.9975 15.742H2.28214C1.74533 15.742 1.23051 15.5367 0.850933 15.1714C0.471353 14.8061 0.258107 14.3106 0.258107 13.794V5.22263C0.258107 4.70598 0.471353 4.21049 0.850933 3.84516C1.23051 3.47984 1.74533 3.2746 2.28214 3.2746H3.72973C3.80193 2.45197 4.19247 1.68543 4.82402 1.12678C5.45556 0.568129 6.28206 0.258107 7.13983 0.258107C7.9976 0.258107 8.82409 0.568129 9.45564 1.12678C10.0872 1.68543 10.4777 2.45197 10.5499 3.2746ZM8.71431 1.87392C8.28262 1.50203 7.72244 1.29431 7.13979 1.29239C6.55713 1.29431 5.99695 1.50203 5.56526 1.87392C5.21028 2.17973 4.9627 2.5787 4.84969 3.01649H9.42989C9.31687 2.5787 9.06929 2.17973 8.71431 1.87392ZM9.69548 3.01649C9.5774 2.50169 9.29431 2.03296 8.88278 1.67845C8.40341 1.26548 7.78318 1.03629 7.13983 1.03437C6.49647 1.03629 5.87625 1.26548 5.39687 1.67845C4.98534 2.03296 4.70217 2.50169 4.58409 3.01649C4.56462 3.10136 4.54968 3.18753 4.53935 3.2746H9.74031C9.72998 3.18753 9.71495 3.10136 9.69548 3.01649ZM12.6772 14.4344C12.8556 14.2628 12.9538 14.0322 12.9538 13.7939V5.22258C12.9538 4.98429 12.8556 4.75367 12.6772 4.58204C12.4986 4.41009 12.2542 4.31183 11.9975 4.31183H2.2821C2.02534 4.31183 1.78099 4.41009 1.60233 4.58204C1.42401 4.75367 1.32574 4.98429 1.32574 5.22258V13.7939C1.32574 14.0322 1.42401 14.2628 1.60233 14.4344C1.78099 14.6064 2.02534 14.7047 2.2821 14.7047H11.9975C12.2542 14.7047 12.4986 14.6064 12.6772 14.4344ZM12.8562 14.6204C13.084 14.4012 13.2119 14.1039 13.2119 13.794V5.22263C13.2119 4.91264 13.084 4.61534 12.8562 4.39615C12.6285 4.17695 12.3196 4.05381 11.9975 4.05381H2.28214C1.96006 4.05381 1.65116 4.17695 1.42342 4.39615C1.19567 4.61534 1.06772 4.91264 1.06772 5.22263V13.794C1.06772 14.1039 1.19567 14.4012 1.42342 14.6204C1.65116 14.8396 1.96006 14.9628 2.28214 14.9628H11.9975C12.3196 14.9628 12.6285 14.8396 12.8562 14.6204Z"
+                      fill="white" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <ul>
+              <li><a href="#">Main page</a></li>
+              <li><a href="#">Catalog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Bonus program</a></li>
+              <li><a href="#">Work process</a></li>
+              <li><a href="#">Partners</a></li>
+            </ul>
+          </div>
+          <ul class="navigation-list">
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Delivery</a></li>
+          </ul>
+          <div class="logo">
+            <img src="images/logo_boltaeva.svg" alt="logo_boltaeva">
+          </div>
+          <div class="navbag">
+            <a href="#">
+              <button class="navbag-icon"></button>
+            </a>
+          </div>
+          <div class="navigation-search">
+            <p class="contacts"><a href="#">Contacts</a></p>
+            <a href="#">
+              <button class="search-icon"></button>
+            </a>
+            <a href="#">
+              <button class="bag-icon"></button>
+            </a>
+            <a href="#">
+              <button class="man-icon"></button>
+            </a>
+            <button id="theme-toggle" class="theme-btn light">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="512.000000pt" height="512.000000pt"
+                viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                  <path d="M2488 5099 c-23 -12 -46 -35 -58 -59 -19 -37 -20 -58 -20 -340 0
+                            -282 1 -303 20 -340 23 -45 80 -80 130 -80 50 0 107 35 130 80 19 37 20 58 20
+                            340 0 282 -1 303 -20 340 -37 73 -127 99 -202 59z" />
+                  <path d="M1295 4784 c-61 -31 -95 -108 -75 -169 10 -31 279 -504 303 -533 35
+                            -43 133 -57 184 -27 50 30 68 64 68 130 -1 59 -4 65 -134 290 -152 261 -171
+                            289 -211 310 -37 19 -97 19 -135 -1z" />
+                  <path d="M3683 4780 c-39 -23 -47 -36 -209 -315 -125 -215 -128 -221 -129
+                            -280 0 -66 18 -100 68 -130 51 -30 149 -16 184 27 24 29 293 502 303 533 12
+                            38 6 76 -21 121 -37 61 -133 83 -196 44z" />
+                  <path d="M2321 3964 c-100 -17 -293 -80 -382 -125 -386 -193 -659 -546 -755
+                            -974 -25 -110 -30 -379 -10 -505 18 -116 78 -304 127 -401 146 -291 392 -528
+                            683 -659 354 -158 776 -162 1130 -9 434 187 750 590 830 1058 21 122 21 339 0
+                            462 -18 110 -79 299 -125 390 -205 409 -589 692 -1038 765 -108 18 -349 16
+                            -460 -2z m462 -305 c428 -87 769 -428 856 -856 106 -521 -171 -1041 -662
+                            -1244 -105 -43 -267 -79 -356 -79 l-61 0 0 1100 0 1100 61 0 c33 0 107 -9 162
+                            -21z" />
+                  <path d="M410 3909 c-99 -41 -127 -172 -51 -242 22 -21 411 -251 510 -302 99
+                            -51 221 37 209 150 -10 81 -7 79 -381 295 -185 106 -232 123 -287 99z" />
+                  <path d="M4342 3762 c-152 -88 -262 -159 -274 -175 -29 -40 -34 -105 -13 -151
+                            23 -48 67 -78 124 -83 44 -5 57 1 276 128 309 178 304 174 326 222 23 53 23
+                            71 -1 124 -25 56 -70 83 -135 83 -46 -1 -70 -12 -303 -148z" />
+                  <path d="M78 2689 c-43 -22 -78 -81 -78 -129 0 -50 35 -107 80 -130 37 -19 58
+                            -20 340 -20 282 0 303 1 340 20 45 23 80 80 80 130 0 50 -35 107 -80 130 -37
+                            19 -58 20 -342 20 -282 -1 -306 -2 -340 -21z" />
+                  <path d="M4358 2689 c-43 -22 -78 -81 -78 -129 0 -50 35 -107 80 -130 37 -19
+                            58 -20 340 -20 282 0 303 1 340 20 45 23 80 80 80 130 0 50 -35 107 -80 130
+                            -37 19 -58 20 -342 20 -282 -1 -306 -2 -340 -21z" />
+                  <path d="M901 1773 c-36 -14 -499 -287 -520 -306 -27 -25 -51 -76 -51 -109 0
+                            -43 38 -103 81 -127 70 -40 94 -31 382 135 272 157 292 173 304 248 16 97
+                            -105 195 -196 159z" />
+                  <path d="M4097 1758 c-40 -24 -77 -86 -77 -130 0 -13 10 -44 23 -67 20 -40 43
+                            -55 287 -197 246 -142 269 -153 316 -154 68 0 112 29 138 92 17 41 18 53 7 87
+                            -6 23 -22 52 -34 65 -18 21 -335 210 -506 302 -54 30 -105 30 -154 2z" />
+                  <path d="M1550 1078 c-24 -17 -74 -94 -183 -283 -133 -231 -150 -265 -151
+                            -306 0 -146 180 -204 267 -87 13 18 84 137 158 263 130 225 133 231 134 290 0
+                            66 -18 100 -67 129 -39 24 -118 21 -158 -6z" />
+                  <path d="M3410 1084 c-48 -30 -65 -64 -65 -129 1 -59 4 -65 134 -290 74 -126
+                            145 -245 158 -263 58 -77 163 -85 227 -15 36 38 50 94 36 138 -6 19 -76 145
+                            -154 282 -161 278 -174 293 -260 293 -29 0 -62 -7 -76 -16z" />
+                  <path d="M2488 839 c-23 -12 -46 -35 -58 -59 -19 -37 -20 -58 -20 -350 0 -292
+                            1 -313 20 -350 23 -45 80 -80 130 -80 50 0 107 35 130 80 19 37 20 58 20 350
+                            0 292 -1 313 -20 350 -37 73 -127 99 -202 59z" />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <section class="nav-section">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1 class="capsule-text">Capsule Collection</h1>
+            </div>
+            <div class="carousel-item">
+              <h1 class="capsule-text">Capsule Collection</h1>
+            </div>
+            <div class="carousel-item">
+              <h1 class="capsule-text">Capsule Collection</h1>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="prev" class="active" aria-current="true" aria-label="previous">
+            <img src="./images/Arrow-left.svg" alt="arrow-left">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <img src="./images/arrow-right.svg" alt="arrow-right">
+          </button>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <section class="cards">
+
+        <div class="product-grid js-products">
+          <div class="product-slider">
+            <a href="./сategory.html">
+              <div class="product-card care">
+                <p class="care-text">Care</p>
+              </div>
+            </a>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/Rectangle 19.png" alt="Perfect brows_logo">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/bottle-logo.png" alt="bottle-logo">
+            <div class="brows-text">
+              <p>Perfect creams</p>
+              <p> <strong>75 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/eyebrows-logo.png" alt="eyebrows-logo">
+            <div class="brows-text">
+              <p>Perfect lipstic</p>
+              <p> <strong>35 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/eyebrows-logo.png" alt="eyebrows-logo.png">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/bottle-logo.png" alt="bottle-logo">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/Rectangle 19.png" alt="bottle-logo">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+          <div class="product-slider">
+            <div class="product-card beauty">
+              <p class="care-text">Beauty</p>
+            </div>
+          </div>
+          <div class="product-slider">
+            <div class="product-card brows">
+              <p class="care-text">Brows</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img class="brows-logo" src="./images/eyebrows-logo.png" alt="eyebrows-logo">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/bottle-logo.png" alt="bottle-logo">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="brows-logo" src="./images/Rectangle 19.png" alt="bottle-logo">
+            <div class="brows-text">
+              <p>Perfect brows</p>
+              <p> <strong>54 €</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="ceo-comment">
+      <div class="ceo-picture">
+        <img src="./images/cosmetic-logo.png" alt="cosmetic-logo">
+      </div>
+      <div class="text-block">
+        <div class="ceo-text">
+          <img src="./images/logo-boltaeva-dark.svg" alt="logo-boltaeva-dark">
+          <p class="brend-description">Each Boltaeva brand product is truly unique - everything is thought out to the
+            smallest detail.</p>
+          <p class="brand-text">The brand seeks to build respect among the audience for its products, so that the
+            presence of the company's products is a sign of prestige, since the focus of the business is focused on
+            exclusive sales, but not on the mass market.</p>
+          <div class="name-class">
+            <div class="name-block">
+              <p>Zara Boltaeva</p>
+              <p>CEO, Founder</p>
+            </div>
+            <div class="autograph">
+              <img src="./images/autograph-removebg-preview.png" alt="autograph-logo">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="dark-cosmetic">
+        <p>Boltaeva - this is a real society of girls who show love to themselves</p>
+        <a href="https://instagram.com" class="insta-link">
+          <div class="insta-block">
+            <div class="insta-text">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 3.83868C5.74194 3.83868 3.87097 5.67739 3.87097 7.96771C3.87097 10.258 5.70968 12.0967 8 12.0967C10.2903 12.0967 12.129 10.2258 12.129 7.96771C12.129 5.70965 10.2581 3.83868 8 3.83868ZM8 10.6129C6.54839 10.6129 5.35484 9.41932 5.35484 7.96771C5.35484 6.5161 6.54839 5.32255 8 5.32255C9.45161 5.32255 10.6452 6.5161 10.6452 7.96771C10.6452 9.41932 9.45161 10.6129 8 10.6129Z"
+                  fill="#555555" />
+                <path
+                  d="M12.2903 4.6774C12.807 4.6774 13.2258 4.25857 13.2258 3.74192C13.2258 3.22527 12.807 2.80644 12.2903 2.80644C11.7737 2.80644 11.3548 3.22527 11.3548 3.74192C11.3548 4.25857 11.7737 4.6774 12.2903 4.6774Z"
+                  fill="#555555" />
+                <path
+                  d="M14.7097 1.32258C13.871 0.451613 12.6774 0 11.3226 0H4.67742C1.87097 0 0 1.87097 0 4.67742V11.2903C0 12.6774 0.451613 13.871 1.35484 14.7419C2.22581 15.5806 3.3871 16 4.70968 16H11.2903C12.6774 16 13.8387 15.5484 14.6774 14.7419C15.5484 13.9032 16 12.7097 16 11.3226V4.67742C16 3.32258 15.5484 2.16129 14.7097 1.32258ZM14.5806 11.3226C14.5806 12.3226 14.2258 13.129 13.6452 13.6774C13.0645 14.2258 12.2581 14.5161 11.2903 14.5161H4.70968C3.74194 14.5161 2.93548 14.2258 2.35484 13.6774C1.77419 13.0968 1.48387 12.2903 1.48387 11.2903V4.67742C1.48387 3.70968 1.77419 2.90323 2.35484 2.32258C2.90323 1.77419 3.74194 1.48387 4.70968 1.48387H11.3548C12.3226 1.48387 13.129 1.77419 13.7097 2.35484C14.2581 2.93548 14.5806 3.74194 14.5806 4.67742V11.3226Z"
+                  fill="#555555" />
+              </svg>
+              <p>Instagram</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="dark-grid">
+        <div class="product-darkcard">
+          <img class="henna" src="./images/Rectangle 1.png" alt="henna">
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 2.png" alt="Perfect brows_logo">
+          <div class="brows-text">
+          </div>
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 1.png" alt="bottle-logo">
+          <div class="brows-text">
+          </div>
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 2.png" alt="eyebrows-logo">
+          <div class="brows-text">
+          </div>
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 3.png" alt="eyebrows-logo.png">
+          <div class="brows-text">
+
+          </div>
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 4.png" alt="bottle-logo">
+          <div class="brows-text">
+          </div>
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 3.png" alt="bottle-logo">
+          <div class="brows-text">
+          </div>
+        </div>
+        <div class="product-darkcard">
+          <img class="brows-logo" src="./images/Rectangle 4.png" alt="bottle-logo">
+        </div>
+      </div>
+
+      <section></section>
+      <section></section>
+
+  </main>
+  <footer>
+    <div class="footer-block">
+      <div class="container">
+        <div class="logo-footer">
+          <img src="images/logo-boltaeva-dark.svg" alt="logo_boltaeva">
+        </div>
+        <div class="footer-columns">
+          <div class="footer-autograph">
+            <p class="text-autograph">Company</p>
+            <p class="autograph-text">The brand strives to create respect for its products among the audience, so that
+              the
+              presence of the
+              company's products is a sign of prestige.
+            </p>
+            <div class="footer-icons">
+              <img src="./images/facebook.svg" alt="facebook-logo">
+              <img src="./images/inst.svg" alt="inst-logo">
+              <img src="./images/twitter.svg" alt="twitter-logo">
+              <img src="./images/youtube.svg" alt="youtube-logo">
+            </div>
+            <div class="footer-autograph">
+              <img src="./images/autograph-removebg-preview.png" alt="autograph-logo">
+            </div>
+          </div>
+          <div class="footer-navigation">
+            <p>Navigation</p>
+            <ul>
+              <li><a href="#">Product catalog</a></li>
+              <li><a href="#">About company</a></li>
+              <li><a href="#">Bonus program</a></li>
+              <li><a href="#">Work process</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-products">
+            <p>Products</p>
+            <ul>
+              <li><a href="#">Care cosmetics</a></li>
+              <li><a href="#">Eyebrow cosmetics</a></li>
+              <li><a href="#">Decorative cosmetics</a></li>
+              <li><a href="#">New in the collection</a></li>
+              <li><a href="#">Box and complect</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer-company">
+            <p class="text-company">Contacts</p>
+            <p class="footer-text">We are open to new opportunities, so you can contact our company representatives for
+              any questions
+            </p>
+            <div class="icons-footer">
+              <img src="./images/e-mail.svg" alt="e-mail-logo">
+              <p>E-mail</p>
+              <img src="./images/whatsapp.svg" alt="whatsapp-logo">
+              <p>Whatsapp</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-rights">
+          <p>All rights reserved (c) BOLTAEVA 2022</p>
+        </div>
+      </div>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
