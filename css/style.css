@@ -822,7 +822,9 @@ header {
     color: var(--color-grey);
     text-decoration: none;
 }
-
+.footer-products a:hover {
+    text-decoration: underline;
+}
 .icons-footer {
     max-width: 220px;
     align-items: center;
