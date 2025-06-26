@@ -32,4 +32,11 @@ Created as a practice project to improve my skills in HTML, CSS, and basic JavaS
 - CSS3  
 - JavaScript (basic)  
 - Git & GitHub Pages  
-- Figma (used as a reference for design layout) 
+- Figma (used as a reference for design layout)
+- 
+# 🛠️ Boltaeva Cosmetic — Admin Panel (Node.js + MongoDB)
+
+This is the backend admin panel for the **Boltaeva Cosmetic** project, built with **Node.js**, **Express.js**, and **MongoDB**.  
+It allows administrators to manage product data — including adding, editing, and deleting items — via a basic web interface.
+
+The application uses **MongoDB** as a database to store and retrieve product information.
